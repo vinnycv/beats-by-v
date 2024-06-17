@@ -87,7 +87,7 @@ function App() {
   return (
     <div id="drum-machine">
       <DrumpadBoard onPlay={playSound}/>
-      <div id="controls-display">
+      <div id="controls-board">
         <Toggle 
           title="Power" 
           onToggle={onPowerToggle}/>
