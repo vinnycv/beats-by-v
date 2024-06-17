@@ -89,21 +89,21 @@ function App() {
       <DrumpadBoard onPlay={playSound}/>
       <div id="controls-board">
         <Toggle 
-          title="Power" 
-          onToggle={onPowerToggle}/>
+          title="Sound Bank" 
+          kit={title} 
+          onToggle={onBankToggle}/>
         <Display show={display}/>
         <Volume 
           currentVolume={volume}
           setVolume={handleVolumeChange}/>
         <Toggle 
-          title="Sound Bank" 
-          kit={title} 
-          onToggle={onBankToggle}/>
+          title="Power" 
+          onToggle={onPowerToggle}/>
       </div>
-      <img 
+      {/* <img 
           alt="react"
           src="https://asset.brandfetch.io/idb_-qgq55/id2Y_kwYxJ.jpeg"
-          />
+          /> */}
     </div>
   )
 }
