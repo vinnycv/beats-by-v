@@ -1,0 +1,7 @@
+Power button glow or something
+
+media query for responsive sizing
+
+Take away "turn on power" in synth bank display
+
+Capitalize/remove "kit" ?
